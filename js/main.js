@@ -58,4 +58,16 @@ jQuery(function($) {
 	$("a[rel^='prettyPhoto']").prettyPhoto({
 		social_tools: false
 	});	
+
+
+
+
+	//Scroll log
+	$(window).on('scroll', function(){
+		var s = $(window).scrollTop(),
+			d = $(document).height(),
+			c = $(window).height();	  
+		var scrollPercent = (s / (d - c)) * 100;
+		$(".pageprogress").css("width",scrollPercent + '%');
+	  });
 });
