@@ -1,4 +1,13 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,700,300);
+
+
+/*Progress bar*/
+.pageprogress{
+  height:6px;
+  width:0%;
+  background-color: rgb(0, 204, 255);
+  transition: width 0.2s ease-out;
+}
 .clearfix {
   *zoom: 1;
 }
