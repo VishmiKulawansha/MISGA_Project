@@ -1,0 +1,10 @@
+<?php
+include("Head.php");
+include("Navbar_About_US.php");
+include("Header_About_Us.php");
+include("Content_About_Us.php");
+include("Team_About_Us.php");
+include("About_Us_Footer.php");
+include("Footer.php");
+include("Js.php");
+?>

@@ -1,0 +1,9 @@
+<?php
+include("Head.php");
+include("Navbar_Terms.php");
+include("Header_Terms.php");
+include("Content_Terms.php");
+include("About_Us_Footer.php");
+include("Footer.php");
+include("Js.php");
+?>

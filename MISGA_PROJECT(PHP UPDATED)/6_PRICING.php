@@ -1,0 +1,9 @@
+<?php
+include("Head.php");
+include("Navbar_Pricing.php");
+include("Header_Pricing.php");
+include("Content_Pricing.php");
+include("About_Us_Footer.php");
+include("Footer.php");
+include("Js.php");
+?>
