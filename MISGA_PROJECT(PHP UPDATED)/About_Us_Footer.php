@@ -1,22 +1,25 @@
-<!--Footer-->
-<section id="bottom" class="wet-asphalt">
+<section style="background-image: url('images/background image/bg.jpg'); background-attachment: fixed;">
+    <section id="bottom" class="asdf">
+        
         <div class="container">
             <div class="row">
                 <div class="col-md-3 col-sm-6">
+                    <h3></h3>
                     <h4>About Us</h4>
-                    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.</i></p>
+                    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.</p>
                     <p>Pellentesque habitant morbi tristique senectus.</p>
                 </div><!--/.col-md-3-->
 
                 <div class="col-md-3 col-sm-6">
+                    <h3></h3>
                     <h4>Company</h4>
                     <div>
                         <ul class="arrow">
-                            <li><a href="#">The Company</a></li>
-                            <li><a href="#">Our Team</a></li>
-                            <li><a href="#">Our Partners</a></li>
+                            <li><a href="#">Company Overview</a></li>
+                            <li><a href="#">Meet The Team</a></li>
+                            <li><a href="#">Our Awesome Partners</a></li>
                             <li><a href="#">Our Services</a></li>
-                            <li><a href="#">Faq</a></li>
+                            <li><a href="#">Frequently Asked Questions</a></li>
                             <li><a href="#">Conatct Us</a></li>
                             <li><a href="#">Privacy Policy</a></li>
                             <li><a href="#">Terms of Use</a></li>
@@ -26,6 +29,7 @@
                 </div><!--/.col-md-3-->
 
                 <div class="col-md-3 col-sm-6">
+                    <h3></h3>
                     <h4>Latest Blog</h4>
                     <div>
                         <div class="media">
@@ -54,11 +58,13 @@
                                 <span class="media-heading"><a href="#">Pellentesque habitant morbi tristique senectus</a></span>
                                 <small class="muted">Posted 11 Jul 2013</small>
                             </div>
+                            <h3></h3>
                         </div>
                     </div>  
                 </div><!--/.col-md-3-->
 
                 <div class="col-md-3 col-sm-6">
+                    <h3></h3>
                     <h4>Address</h4>
                     <address>
                         <strong>Twitter, Inc.</strong><br>
@@ -71,7 +77,7 @@
                         <div class="input-group">
                             <input type="text" class="form-control" autocomplete="off" placeholder="Enter your email">
                             <span class="input-group-btn">
-                                <button class="btn btn-danger" type="button">Go!</button>
+                                <button class="btn btn-danger" type="button" style="background-color: rgb(13, 146, 255);">Go!</button>
                             </span>
                         </div>
                     </form>
@@ -79,3 +85,4 @@
             </div>
         </div>
     </section><!--/#bottom-->
+    </section>
