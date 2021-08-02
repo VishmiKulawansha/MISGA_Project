@@ -84,11 +84,13 @@
 <style>
 .pold{border-style: inset;}
 </style>
+
+
 </br><table width="1200">
             <tr>
                 <td width="500"><p><iframe width="100%" height="320" src="https://www.youtube.com/embed/lW4Wk3hoTCw?Rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p></td>
                 <td width="50"></td>
-                <td width ="500"><p class="pold"><center><h3><b>Our Mission</b></h3></center></br> <center>“To be Earth’s most customer-centric company, where customers can find and discover anything they might want to buy online, and endeavors to offer its customers the lowest possible prices.”</center></td></p>
+                <td width ="500"><center><h3 style="color:white;">Our Mission</h3></center></br> <center>“To be Earth’s most customer-centric company, where customers can find and discover anything they might want to buy online, and endeavors to offer its customers the lowest possible prices.”</center></td></p>
             </tr>
         </table></section></br>
 </div>
