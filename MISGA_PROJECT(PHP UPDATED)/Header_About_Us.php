@@ -1,16 +1,14 @@
-<section id="title" class="emerald">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-6">
-                    <h1>About Us</h1>
-                    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada</p>
-                </div>
-                <div class="col-sm-6">
-                    <ul class="breadcrumb pull-right">
-                        <li><a href="index.html">Home</a></li>
-                        <li class="active">About Us</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section><!--/#title-->
+<!--Top Design-->
+<!--Top Design-->
+<!--Top Design-->
+<!--Top Design-->
+<table>
+        <tr>
+            <img src="images/ads/business.png" width="100%" height="350">
+        </tr>
+    </table>
+    
+<style>
+    .heading{color: rgb(230, 230, 230); position: absolute; left: 10%; top: 45%;  text-align: left; font-size: 2rem; text-shadow:  5px 5px 10px #611414;}
+</style>
+<p class="heading"><b> <a href ="index.html">Home</a> /About Us </b></p>
