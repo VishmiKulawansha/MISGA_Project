@@ -1,4 +1,4 @@
-
+<section style="background-image: url('images/background image/bg.png');background-attachment: fixed;">
     <section id="portfolio" class="container">
         <ul class="portfolio-filter">
             <li><a class="btn btn-default" href="#" data-filter="">All</a></li>
@@ -7,9 +7,6 @@
             <li><a class="btn btn-default" href="#" data-filter=".wordpress">Meeting Organization</a></li>
         </ul><!--/#portfolio-filter-->
 
-<div>
-  <body style= "background: url(https://wallpapertag.com/wallpaper/full/a/b/8/416537-navy-blue-backgrounds-1920x1200-image.jpg)">
- 
         <ul class="portfolio-items col-3">
            
                 <div class="item-inner">
@@ -67,3 +64,5 @@
         </ul>
     </div>
     </section><!--/#portfolio-->
+</section>
+<div style="background-color: #16a085; height :5px;"></div>
