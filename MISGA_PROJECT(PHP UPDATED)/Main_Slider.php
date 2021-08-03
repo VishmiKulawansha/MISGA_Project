@@ -18,7 +18,7 @@
                         </div>
                     </div>
                 </div><!--/.item-->
-                <div class="item" style="background-image: url(images/slider/bg2.jpg) ; background-attachment: fixed;">
+                <div class="item" style="background-image: url(images/slider/bg2.jpg) ;">
                     <div class="container">
                         <div class="row">
                             <div class="col-sm-12">
@@ -32,7 +32,7 @@
                         </div>
                     </div>
                 </div><!--/.item-->
-                <div class="item" style="background-image: url(images/slider/bg3.jpg) ;background-attachment: fixed;">
+                <div class="item" style="background-image: url(images/slider/bg3.jpg) ;">
                     <div class="container">
                         <div class="row">
                             <div class="col-sm-6">
