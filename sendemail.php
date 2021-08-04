@@ -1,21 +1,43 @@
-<?php
-	header('Content-type: application/json');
-	$status = array(
-		'type'=>'success',
-		'message'=>'Email sent!'
-	);
+<!DOCTYPE html>
+<html>
+<body>
+	<center>
+		<?php
 
-    $name = @trim(stripslashes($_POST['name'])); 
-    $email = @trim(stripslashes($_POST['email'])); 
-    $subject = @trim(stripslashes($_POST['subject'])); 
-    $message = @trim(stripslashes($_POST['message'])); 
+		// servername => localhost
+		// username => root
+		// password => empty
+		// database name => staff
+		$conn = mysqli_connect("localhost", "root", "", "misga");
+		
+		// Check connection
+		if($conn === false){
+			die("ERROR: Could not connect. "
+				. mysqli_connect_error());
+		}
+		
+		// Taking all 5 values from the form data(input)
+		$first_name = $_REQUEST['first_name'];
+		$email = $_REQUEST['email'];
+		$country = $_REQUEST['country'];
+		$subject = $_REQUEST['subject'];
+		
+		// Performing insert query execution
+		// here our table name is college
+		$sql = "INSERT INTO contact VALUES ('$first_name','$email','$country','$subject')";
+		
+		if(mysqli_query($conn, $sql)){
+			echo "<h3>data stored in a database successfully."
 
-    $email_from = $email;
-    $email_to = 'email@gmail.com';
+		} else{
+			echo "ERROR: Hush! Sorry $sql. "
+				. mysqli_error($conn);
+		}
+		
+		// Close connection
+		mysqli_close($conn);
+		?>
+	</center>
+</body>
 
-    $body = 'Name: ' . $name . "\n\n" . 'Email: ' . $email . "\n\n" . 'Subject: ' . $subject . "\n\n" . 'Message: ' . $message;
-
-    $success = @mail($email_to, $subject, $body, 'From: <'.$email_from.'>');
-
-    echo json_encode($status);
-    die;
+</html>
