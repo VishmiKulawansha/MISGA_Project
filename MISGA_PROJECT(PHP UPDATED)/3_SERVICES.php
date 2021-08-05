@@ -1,9 +1,0 @@
-<?php
-include("Head.php");
-include("Navbar_Services.php");
-include("Header_Services.php");
-include("Content_Services.php");
-include("About_Us_Footer.php");
-include("Footer.php");
-include("Js.php");
-?>

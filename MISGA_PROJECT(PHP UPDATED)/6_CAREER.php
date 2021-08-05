@@ -1,9 +1,0 @@
-<?php
-include("Head.php");
-include("Navbar_Career.php");
-include("Header_Career.php");
-include("Content_Career.php");
-include("About_Us_Footer.php");
-include("Footer.php");
-include("Js.php");
-?>

@@ -1,9 +1,0 @@
-<?php
-include("Head.php");
-include("Navbar_Registration.php");
-include("Header_Registration.php");
-include("Content_Registration.php");
-include("About_Us_Footer.php");
-include("Footer.php");
-include("Js.php");
-?>
