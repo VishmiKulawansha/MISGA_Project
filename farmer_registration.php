@@ -156,7 +156,7 @@
                                 </div>
                                 <div class="form-group row mt-3">
                                     <div class="col-md-12">
-                                        <input class="form-control" type="text" placeholder="Name of the Farm (if any)">
+                                        <input class="form-control" type="text" required="" placeholder="Name of the Farm (if any)">
                                     </div>
                                 </div>
                                 <div class="form-group row mt-3">
@@ -180,9 +180,31 @@
                                     </div>
                                 </div>
                                 <div >
+                                    <div class="form-group row">
                                     <div class="col-md-12"></div>
-                                        <input id="image" type="file" name="profile_photo" placeholder="Photo" required="" capture>
+                                  <div style="
+                                                    font-family: Arial, sans-serif;
+                                                     background-color: #ffffff; color: #333;
+                                                    border-radius:5px ; 
+                                                     margin-inline: 14px;
+                                                     min-width:20ch;
+                                                      padding: 05px;
+                                                      font-size:12px;">Upload your photo</div>
+                                   <input id="image" type="file" name="profile_photo" placeholder="Photo" required="" capture>
                                     </div>        
+                                    <div >
+                                        <div class="form-group row">
+                                        <div class="col-md-12"></div>
+                                        <div style="
+                                                    font-family: Arial, sans-serif;
+                                                    background-color: #ffffff; color: #333;
+                                                    border-radius:5px ; 
+                                                    margin-inline: 14px;
+                                                    min-width:20ch;
+                                                     padding: 05px;
+                                                     font-size:12px;">Upload your photo</div>
+                                        <input id="image" type="file" name="profile_photo" placeholder="Photo" required="" capture>
+                                        </div>        
                                     <br/>                                
                                 <div>
                                 <div class="form-group row">
@@ -196,6 +218,14 @@
                                 <div class="form-group row text-center mt-4">
                                     <div class="col-md-12">
                                         <button type="submit" class="btn btn-primary btn-block text-uppercase">Register</button>
+                                    </div>
+                                    <br> </br>
+                                  
+                                    
+                                    <div>
+                                        &emsp;&ensp;Already a member? <a href="login.html">Sign in</a></div>
+                                            
+                                        
                                     </div>
                                 </div>
                             </form>
@@ -288,4 +318,3 @@
     <script type="text/javascript" src="assets/packages/bootstrap-touchspin/bootstrap-touchspin.js"></script>
     <script type="text/javascript" src="assets/js/theme.js"></script>
 </body>
-</html>
