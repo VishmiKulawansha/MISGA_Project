@@ -19,9 +19,10 @@ try {
         VALUES ('$fullName' , '$address' , '$teleNumber' , '$email' , '$password');";
 
         if (mysqli_query($conn, $sql_query)) {
-            echo "New customer added successfully !";
+            // echo "New customer added successfully !";
+            echo '<script>alert("New customer added successfully !")</script>';
         } else {
-            echo "Error" . $sqyl . "" . mysqli_error($conn);
+            echo "Error" . $sql . "" . mysqli_error($conn);
         }
         mysqli_close($conn);
     }
