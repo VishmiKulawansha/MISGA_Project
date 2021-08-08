@@ -143,7 +143,7 @@
 
                     <div class="card card-login mb-5">
                         <div class="card-body">
-                            <form class="form-horizontal" action="customer.php" method="POST">
+                        <form class="form-horizontal" name="customer_registration" action="includes/customer.php" method="POST">
                                 <div class="form-group row mt-3">
                                     <div class="col-md-12">
                                         <input class="form-control" type="text" required="" placeholder="Full Name" name="fullName">

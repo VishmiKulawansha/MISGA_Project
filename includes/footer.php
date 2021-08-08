@@ -1,0 +1,1 @@
+<!-- move the footer from your webpages to here -->
