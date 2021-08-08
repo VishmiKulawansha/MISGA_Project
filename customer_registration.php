@@ -190,7 +190,7 @@
                                 </div>
                                 <div class="form-group row text-center mt-4">
                                     <div class="col-md-12">
-                                        <button type="submit" class="btn btn-primary btn-block text-uppercase">Register</button>
+                                        <button type="submit" class="btn btn-primary btn-block text-uppercase" name="Register">Register</button>
                                     </div>
                                 </div>
                                 
