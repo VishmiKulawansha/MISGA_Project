@@ -1,5 +1,5 @@
 // color elements
-$primary-color:			#E91E63;
+$primary-color:			#C45C7E;
 $gray-base:              #000 !default;
 $gray-darker:            lighten($gray-base, 13.5%) !default; // #222
 $gray-dark:              lighten($gray-base, 20%) !default;   // #333
