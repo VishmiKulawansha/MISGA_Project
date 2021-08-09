@@ -3,16 +3,7 @@ $(document).ready(function(){
         $(".preloader").fadeOut();
     });
 
-    $(window).scroll(function(){
-        var scroll = $(window).scrollTop();
-        if (scroll > 20) {
-            $('#page-navigation').addClass('bg-white').removeClass('bg-transparent');
-            $('#page-navigation').addClass('navbar-light').removeClass('navbar-dark');
-        }else{
-            $('#page-navigation').addClass('bg-transparent').removeClass('bg-white');
-            $('#page-navigation').addClass('navbar-dark').removeClass('navbar-light');
-        }
-    });
+   
 
     $('.landing-categories').owlCarousel({
         loop: true,
