@@ -4,7 +4,133 @@
  * o2system-ui-kit - v1.0.0
  =========================================================
 
+/*Nav-bar CSS*/
+.page-header .navbar .navbar-nav .nav-link:focus, .page-header .navbar .navbar-nav .nav-link:hover, .page-header .navbar .navbar-nav .nav-link.active {
+  color: #00e1ff;
+}
+.page-header .navbar .navbar-nav .dropdown .badge {
+  position: fixed;
+  top: 5px;
+  font-weight: 400;
+  text-align: center;
+  background-color: #fff;
+}
+.nav-b{
+  background-color: rgb(255, 255, 255);
+  z-index: 2;
+  border-radius: 15px;
+  top: 5px;
+  right: 5px;
+  left: 5px;
+    width: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.699), 0 6px 20px 0 rgba(0, 0, 0, 0.76);
+}
+.page-header .navbar .navbar-brand img {
+  height: 60px;
+}
+.page-header .navbar .navbar-nav .nav-link {
+  color: rgb(0, 0, 0);
+  font-size: 1rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+.page-header .navbar.bg-white .navbar-nav .nav-link {
+  color: #ffffff;
+}
+.page-header .navbar.bg-white .navbar-nav .nav-link:focus, .page-header .navbar.bg-white .navbar-nav .nav-link:hover, .page-header .navbar.bg-white .navbar-nav .nav-link.active {
+  color: #0051ff;
+}
+
+
+/*/Nav-bar CSS*/
+
+
+.color-bg{
+  background-color: #ddd4d4;
+}
+.font{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+.center{
+  text-align: center;
+}
+
+.box-1 {
+  background-color: #cfcfcf;
+  height: 350px;
+  padding: 50px;
+  margin: 20px;
+  box-align: center;
+  text-align: center;
+  color: #000000;
+  border-radius: 15px;
+  
+}
+.box-2 {
+  background-color: #5e5050;
+  height: 350px;
+  padding: 50px;
+  margin: 20px;
+  box-align: center;
+  text-align: center;
+  color: #ffffff;
+  
+  border-radius: 15px;
+  
+}
+
+
+
+.page-header {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.footer-bg{
+  background-color: rgb(148, 196, 136);
+}
+
+.end-bg{
+  color: #ddd;
+  background-color: rgb(7, 19, 2);
+  text-align: center;
+  height: 30px;
+  font-family: Arial;
+}
+
+
+:active{
+  color: #08cbfc;
+}
+
+.header-2{
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  font-family: Arial;
+}
+
+.header-bg {
+  padding: 140px;
+  text-align: center;
+  color: white;
+  font-size: 80px;
+  font-family: Arial;
+}
  */
+ #center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
 body {
   color: #333333;
   font-size: 14px;
@@ -22,13 +148,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .btn-primary {
-  background: #E91E63;
-  border-color: #E91E63;
-  margin-top: 0cm;
+  background: #008cff;
+  border-color: #008cff;
 }
 .btn-primary:hover, .btn-primary:focus {
-  background: #E91E63;
-  border-color: #E91E63;
+  background: #034e8b;
+  border-color: #034e8b;
 }
 
 .btn.focus, .btn:focus {
@@ -93,7 +218,7 @@ section .card-title {
 
 .title {
   text-align: center;
-  color: #000000;
+  color: #E91E63;
   margin-bottom: 3rem;
 }
 
@@ -162,33 +287,7 @@ section .card-title {
   font-size: 1rem;
 }
 
-.page-header .navbar .navbar-brand img {
-  height: 60px;
-}
-.page-header .navbar .navbar-nav .nav-link {
-  color: #FFF;
-  font-size: 1rem;
-  padding-right: 1rem;
-  padding-left: 1rem;
-}
-.page-header .navbar .navbar-nav .nav-link:focus, .page-header .navbar .navbar-nav .nav-link:hover, .page-header .navbar .navbar-nav .nav-link.active {
-  color: #3ba7d1;
-}
-.page-header .navbar .navbar-nav .dropdown .badge {
-  position: absolute;
-  top: 5px;
-  font-weight: 400;
-  text-align: center;
-}
-.page-header .navbar.bg-white {
-  box-shadow: 0 3px 7px rgba(0, 0, 0, 0.1);
-}
-.page-header .navbar.bg-white .navbar-nav .nav-link {
-  color: #333333;
-}
-.page-header .navbar.bg-white .navbar-nav .nav-link:focus, .page-header .navbar.bg-white .navbar-nav .nav-link:hover, .page-header .navbar.bg-white .navbar-nav .nav-link.active {
-  color: #21139bb9;
-}
+
 .page-header .navbar .avatar-header {
   width: 25px;
   height: 25px;
@@ -234,64 +333,11 @@ section .card-title {
   color: #333333;
   font-weight: 400;
 }
-.column {
-  float: left;
-  width: 50%;
-}
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-input, textarea, select, button {
-  font-family: "Poppins-Regular";
-  color: #333;
-  font-size: 13px; 
-}
-button {
-  border: none;
-  width: 164px;
-  height: 51px;
-  margin: auto;
-  margin-top: 40px;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 0;
-  background: #333;
-  font-size: 15px;
-  color: #fff;
-  vertical-align: middle;
-  -webkit-transform: perspective(1px) translateZ(0);
-  transform: perspective(1px) translateZ(0);
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-}
-  button i {
-    margin-left: 10px;
-    -webkit-transform: translateZ(0);
-    transform: translateZ(0); 
-}
-  button:hover i, button:focus i, button:active i {
-    -webkit-animation-name: hvr-icon-wobble-horizontal;
-    animation-name: hvr-icon-wobble-horizontal;
-    -webkit-animation-duration: 1s;
-    animation-duration: 1s;
-    -webkit-animation-timing-function: ease-in-out;
-    animation-timing-function: ease-in-out;
-    -webkit-animation-iteration-count: 1;
-    animation-iteration-count: 1; 
-}
-button {
-  margin-top: 60px;
- }
 .page-header .navbar .shopping-cart .shopping-cart-list .media h5 a {
   color: #333333;
 }
 .page-header .navbar .shopping-cart .shopping-cart-list .media h5 a:focus, .page-header .navbar .shopping-cart .shopping-cart-list .media h5 a:hover, .page-header .navbar .shopping-cart .shopping-cart-list .media h5 a.active {
-  color: #E91E63;
+  color: #00e1ff;
 }
 .page-header .navbar .shopping-cart .shopping-cart-list .media p {
   margin: 0;
@@ -299,7 +345,7 @@ button {
 .page-header .navbar .shopping-cart .shopping-cart-list .media .price span {
   display: inline-block;
   margin-right: 5px;
-  color: #E91E63;
+  color: #00a0fd;
   font-size: 0.8rem;
 }
 .page-header .navbar .shopping-cart .shopping-cart-list .media .price span.discount {
@@ -378,7 +424,7 @@ button {
   color: #E91E63;
 }
 .card-product .card-price span.reguler {
-  color: #E91E63;
+  color: #5ee91e;
   font-size: 1rem;
 }
 .card-product .card-price span.discount {
