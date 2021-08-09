@@ -99,8 +99,8 @@ section{
 }
 
 .title{
-    text-align: center;
-    color: $primary-color;
+    text-align: left;
+    color:red;
     margin-bottom: 3rem;
 }
 

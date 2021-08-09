@@ -5,7 +5,7 @@ $(document).ready(function(){
 
     $(window).scroll(function(){
         var scroll = $(window).scrollTop();
-        if (scroll > 200) {
+        if (scroll > 20) {
             $('#page-navigation').addClass('bg-white').removeClass('bg-transparent');
             $('#page-navigation').addClass('navbar-light').removeClass('navbar-dark');
         }else{
