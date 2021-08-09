@@ -5,6 +5,11 @@
  =========================================================
 
  */
+ .S-font-color{
+   color: #208f16;
+ }
+
+
 body {
   color: #333333;
   font-size: 14px;
@@ -22,13 +27,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .btn-primary {
-  background: #E91E63;
-  border-color: #E91E63;
+  background: #3cbb62;
+  border-color: #3cbb62;
   margin-top: 0cm;
 }
 .btn-primary:hover, .btn-primary:focus {
-  background: #E91E63;
-  border-color: #E91E63;
+  background: #8b9e75;
+  border-color: #8b9e75;
 }
 
 .btn.focus, .btn:focus {
@@ -93,7 +98,6 @@ section .card-title {
 
 .title {
   text-align: center;
-  color: #000000;
   margin-bottom: 3rem;
 }
 
@@ -327,9 +331,11 @@ button {
   color: #FFF;
 }
 .banner .jumbotron .container .card .card-body .card-title {
-  color: #FFF;
+  color: rgb(255, 248, 248);
   text-transform: uppercase;
 }
+
+
 
 .card .card-icon-i.text-success {
   border-color: #4A9304;
@@ -375,10 +381,10 @@ button {
   color: #333333;
 }
 .card-product .card-title a:hover, .card-product .card-title a:focus {
-  color: #E91E63;
+  color: #56da72;
 }
 .card-product .card-price span.reguler {
-  color: #E91E63;
+  color: #27d427;
   font-size: 1rem;
 }
 .card-product .card-price span.discount {
@@ -405,7 +411,7 @@ button {
 }
 .product-detail .price {
   font-size: 1.5rem;
-  color: #E91E63;
+  color: #27d427;
 }
 .product-detail .old-price {
   text-decoration: line-through;
