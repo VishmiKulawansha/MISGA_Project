@@ -3,8 +3,11 @@ $(document).ready(function(){
         $(".preloader").fadeOut();
     });
 
+<<<<<<< HEAD
    
 
+=======
+>>>>>>> 66588687c496035d3ccce9a66fed2d00efcee450
     $('.landing-categories').owlCarousel({
         loop: true,
         items: 4,
