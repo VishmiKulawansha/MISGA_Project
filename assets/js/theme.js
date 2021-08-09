@@ -3,17 +3,11 @@ $(document).ready(function(){
         $(".preloader").fadeOut();
     });
 
-    $(window).scroll(function(){
-        var scroll = $(window).scrollTop();
-        if (scroll > 20) {
-            $('#page-navigation').addClass('bg-white').removeClass('bg-transparent');
-            $('#page-navigation').addClass('navbar-light').removeClass('navbar-dark');
-        }else{
-            $('#page-navigation').addClass('bg-transparent').removeClass('bg-white');
-            $('#page-navigation').addClass('navbar-dark').removeClass('navbar-light');
-        }
-    });
+<<<<<<< HEAD
+   
 
+=======
+>>>>>>> 66588687c496035d3ccce9a66fed2d00efcee450
     $('.landing-categories').owlCarousel({
         loop: true,
         items: 4,
