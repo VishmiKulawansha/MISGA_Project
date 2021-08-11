@@ -21,6 +21,9 @@ try {
         if (mysqli_query($conn, $sql_query)) {
             // echo "New customer added successfully !";
             echo '<script>alert("New customer added successfully !")</script>';
+            
+                        header("Location:../login.php");
+            
         } else {
             echo "Error" . $sql . "" . mysqli_error($conn);
         }
