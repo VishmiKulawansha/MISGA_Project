@@ -101,7 +101,7 @@ include 'includes/JS.php';
 
 <div class="col-md-12 mt-5 text-center">
     <a href="shop.php" class="btn btn-primary btn-lg">SHOP NOW</a> &nbsp; &nbsp; &nbsp;
-    <a href="gallery.php" class="btn btn-primary btn-lg"> &nbsp; ABOUT-US &nbsp; </a>
+    <a href="about-us.php" class="btn btn-primary btn-lg"> &nbsp; ABOUT-US &nbsp; </a>
     <p><br></p>
 </div>
 </div>
