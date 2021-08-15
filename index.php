@@ -30,7 +30,7 @@ include 'includes/JS.php';
         </div>
 
         <div class="col-md-6">
-            <p class="text-0"><b>WELCOME TO<br><br></p>
+            <p class="text-0"><b>WELCOME TO<br></p>
             <p class="text-1"><b>KRISH VILLA ORGANIC</b></p>
             <p class="text-2">Krish Villa Organic is registered as a partnership under the companies act and future is invloved in selling organic vegetables and fruits.</p>
         </div>
