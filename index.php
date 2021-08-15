@@ -86,7 +86,7 @@ include 'includes/JS.php';
         </div>
 
         <div class="col-md-6">
-            <center><img src="assets/img/Gallery/gallery-1.jpg" width="480px" style="border-radius: 10px;"></center><a href="Gallery.html" style="font-family:arial;"><br>
+            <center><img src="assets/img/Gallery/gallery-1.jpg" width="480px" style="border-radius: 10px;"></center><a href="gallery.php" style="font-family:arial;"><br>
                 <center>See more...</center>
             </a>
 
@@ -100,8 +100,8 @@ include 'includes/JS.php';
 
 
 <div class="col-md-12 mt-5 text-center">
-    <a href="shop.html" class="btn btn-primary btn-lg">SHOP NOW</a> &nbsp; &nbsp; &nbsp;
-    <a href="Gallery.html" class="btn btn-primary btn-lg"> &nbsp; ABOUT-US &nbsp; </a>
+    <a href="shop.php" class="btn btn-primary btn-lg">SHOP NOW</a> &nbsp; &nbsp; &nbsp;
+    <a href="gallery.php" class="btn btn-primary btn-lg"> &nbsp; ABOUT-US &nbsp; </a>
     <p><br></p>
 </div>
 </div>
