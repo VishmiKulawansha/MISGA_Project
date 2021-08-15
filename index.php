@@ -50,7 +50,7 @@ include 'includes/JS.php';
         </div>
 
         <div class="col-md-6">
-            <p class="text-1"><b>OUR REGITERED SUPPLIERS</b></p>
+            <p class="text-1"><b>OUR REGISTERED SUPPLIERS</b></p>
             <p class="text-2">Horana, Bandaragama, Nuwara Eliya, Bandarawela, Lindula, Some areas in Monaragala</p>
         </div>
 
