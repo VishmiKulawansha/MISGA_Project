@@ -494,6 +494,7 @@ footer .copyright {
 }
 
 
+ /*EASHAN*/
 /*/Nav-bar CSS*/
 
 
@@ -590,16 +591,18 @@ footer .copyright {
 .header-2{
   text-align: center;
   color: white;
-  font-size: 30px;
-  font-family: Arial;
+  font-size: 55px;
+  font-family: Script MT;
+  text-shadow: #000000;
+  outline: #000000;
 }
 
 .header-bg {
   padding: 140px;
   text-align: center;
-  color: white;
+  color: rgb(236, 233, 233);
   font-size: 80px;
-  font-family: Arial;
+  
 }
 
 .btn-primary {
@@ -633,5 +636,40 @@ footer ul li a:hover, footer ul li a:focus {
   color: #00ffff;
 }
 
+.text-0{
+  font-size: 250%;
+  text-align: center;
+  font-family: Script MT ;
+  color: #00a550 ;
+}
 
- /*EASHAN*/
+.text-1{
+  font-size: 180%;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.text-2{
+  font-size: 130%;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.page-bg{
+  background-color: #e6e4e4;
+}
+
+.text-3{
+  color: #dfdede;
+  text-shadow: #000000 !important;
+  font-family: Showcard Gothic;
+}
+
+.text-head{
+  text-shadow: 4px 4px #000000c4;
+}
+
+.abc{
+  font-size: 40px;
+}
+ /*EASHAN*/ 
