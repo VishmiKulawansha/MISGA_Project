@@ -43,17 +43,17 @@ include 'includes/JS.php';
                         </h3>
 
                         <p class="text-light">
-                            Krish Villa No. 468, Hokandara<br>
-                            Sri Jayawardhanepura Kotte<br>
-                            Colombo<br>
-                            Sri Lanka<br>
+                            Krish Villa No. 468, Hokandara,<br>
+                            Sri Jayawardhanepura Kotte,<br>
+                            Colombo,<br>
+                            Sri Lanka.<br>
                         </p>
 
                         <p class="text-light">
-                            Krish Villa No. 54, Nuwara Eliya Road<br>
-                            Lindula<br>
-                            Hatton<br>
-                            Sri Lanka
+                            Krish Villa No. 54, Nuwara Eliya Road,<br>
+                            Lindula,<br>
+                            Hatton,<br>
+                            Sri Lanka.
                         </p>
 
                         <p class="text-light">
