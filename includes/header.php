@@ -1,5 +1,9 @@
-<div class="page-content">
-    <section class="header-bg jumbotron-bg jumbotron" style="background-image: url('assets/img/header-1.jpg');">
-        <p>KRISH VILLA</p>
-        <p class="header-2">Tomorrow without poison</p>
-    </section>
+<div  class="page-content page-bg ">
+        <section class="header-bg jumbotron-bg jumbotron page-bg" style="background-image: url('assets/img/header.jpg'); height: 480px;">
+            <div class="text-head">
+                <div class="abc"><br></div>
+                <p class="text-3">KRISH VILLA</p>
+                <p class="header-2">Live Organic For Live Healthy</p>
+            </div>    
+        </section>
+<section class="page-bg">
