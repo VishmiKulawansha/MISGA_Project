@@ -5,25 +5,13 @@ include 'includes/header.php';
 include 'includes/JS.php';
 ?>
 
-<div id="page-content" class="page-content">
-    <div class="banner">
-        <div class="jumbotron jumbotron-bg text-center rounded-0" style="background-image: url('assets/img/bg-header.jpg');">
-            <div class="container">
-                <h1 class="pt-5">
-                    Privacy Policy
-                </h1>
-                <p class="lead">
-                    Please Read Carefully
-                </p>
-            </div>
-        </div>
-    </div>
+
 
     <section id="faq">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                <p style="text-align:justify"><strong>Privacy Policy</strong></p>
+                                <h3 class="text-dark mb-4">Privacy Policy </h3>
                     <p style="text-align:justify"> Krish Villa organic is a leading Sri Lankan eCommerce platform bringing premium online
                         shopping experience to thousands of Sri Lankans and Sri Lankan expats around the world.
                         Our service and products are known for its quality, freshness and innovation.
