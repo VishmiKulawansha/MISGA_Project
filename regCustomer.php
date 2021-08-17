@@ -27,7 +27,7 @@ include 'includes/JS.php';
                     </div>
                     <div class="form-group row mt-3">
                         <div class="col-md-12">
-                            <input class="form-control" type="email" required="" placeholder="Email" name="email">
+                            <input class="form-control" type="email" required="" placeholder="user@gmail.com" name="email">
                         </div>
                     </div>
                     <div class="form-group row">
