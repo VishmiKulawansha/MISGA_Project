@@ -12,7 +12,7 @@ include 'includes/JS.php';
                 <form class="form-horizontal" action="includes/scripts.php" method="POST">
                     <div class="form-group row mt-3">
                         <div class="col-md-12">
-                            <input class="form-control" type="text" required="" placeholder="Email" name="email">
+                            <input class="form-control" type="text" required="" placeholder="user@gmail.com" name="email">
                         </div>
                     </div>
                     <div class="form-group row">
