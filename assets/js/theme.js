@@ -3,11 +3,8 @@ $(document).ready(function(){
         $(".preloader").fadeOut();
     });
 
-<<<<<<< HEAD
-   
+    
 
-=======
->>>>>>> 66588687c496035d3ccce9a66fed2d00efcee450
     $('.landing-categories').owlCarousel({
         loop: true,
         items: 4,
@@ -35,32 +32,7 @@ $(document).ready(function(){
 
     });
 
-    $('.shop-categories').owlCarousel({
-        loop: true,
-        items: 4,
-        margin: 5,
-        autoplay: false,
-        dots:false,
-        autoplayTimeout: 8000,
-        rewindSpeed : 8000,
-        nav: true,
-        navText : ['<i class="fa fa-angle-left" aria-hidden="true"></i>','<i class="fa fa-angle-right" aria-hidden="true"></i>'],
-        responsive: {
-            0: {
-                items: 1
-            },
-            768: {
-                items: 2
-            },
-            990: {
-                items: 4
-            },
-            1170: {
-                items: 4
-            }
-        }
-
-    });
+    
 
     $('.product-carousel').owlCarousel({
         loop: true,
@@ -96,4 +68,9 @@ $(document).ready(function(){
         max: 50
     });
 
+    
+
 });
+
+
+	
